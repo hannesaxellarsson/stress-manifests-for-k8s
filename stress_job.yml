@@ -1,5 +1,3 @@
-# docker run --rm -it progrium/stress --cpu 2 --io 1 --vm 2 --vm-bytes 128M --timeout 10s
-
 apiVersion: batch/v1
 kind: Job
 metadata:
