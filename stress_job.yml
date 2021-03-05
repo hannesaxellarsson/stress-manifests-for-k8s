@@ -8,7 +8,7 @@ spec:
       containers:
       - name: stress
         image: progrium/stress
-        command: ["perl",  "--cpu", "2", "--io", "1", "--vm", "2", "--vm-bytes", "128M", "--timeout 10s"]
+        command: ["--cpu", "2", "--io", "1", "--vm", "2", "--vm-bytes", "128M", "--timeout 10s"]
         terminationMessagePolicy: FallbackToLogsOnError
       restartPolicy: Never
   backoffLimit: 4
